@@ -1,0 +1,289 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.temp {
+    background-color: #d2d6de;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+    
+/* Media Query for mobile phones */
+@media only screen and (max-width: 600px) {
+    .temp {
+        
+        background-color: #d2d6de;
+      height: 110vh;
+      width: 110vw; 
+        padding: 0px; 
+    }
+        
+}
+
+.box {
+    background-color: white;
+    padding: 20px;
+    height: 440px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+
+    border-top: 3px solid #6278a4
+}
+
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.radio {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    margin-top: 35px;
+    font-weight: 700;
+    accent-color: #0978ffd6;
+
+
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    color: #100e0e;
+    font-family: Tahoma, Arial;
+
+}
+
+.idpass {
+    /* background-color: red; */
+    display: block;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+    width: 350px;
+    height: 28px;
+
+
+
+
+
+}
+
+input[type=text] {
+    width: 350px;
+    border: 1px solid #aba6a6;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+
+
+}
+
+/* input[type=text]:focus{
+    border-color:dodgerblue;
+  }
+     */
+
+
+input[type=password] {
+    width: 350px;
+    border: 1px solid #aba6a6;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+
+}
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 55px;
+    height: 28px;
+    margin-top: 20px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.text {
+    position: relative;
+
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #333;
+    font-weight: 600;
+
+}
+
+.links {
+    
+    background-color: transparent;
+    width: 40%;
+    margin-top: 30px;
+    display: grid 1;
+    display: inline-block;
+    font-family: 'PoppinsR', Verdana, Arial, Tahoma;
+    font-size: 13px;
+
+
+}
+.links a {
+    color: #4e73df;
+}
+
+.forgetpass {
+    margin-bottom: 8px;
+
+}
+
+.newuser a {
+    text-decoration: none;
+}
+
+.forgetpass a {
+    text-decoration: none;
+}
+
+
+
+
+.lbutton {
+    color: #fff;
+    float: right;
+    width: 160px;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    background-color: rgb(72, 51, 72) !important;
+    /* display: inline-block; */
+
+
+
+
+}
+
+.login p {
+    border-radius: 3px;
+    box-shadow: none;
+    font-family: 'poppinsR', Tahoma, Arial;
+    color: #fff;
+    padding: 6px 12px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    text-transform: none;
+    overflow: visible;
+    letter-spacing: 0.04em;
+
+
+}
+
+
+.button-3 {
+    width: 160px;
+    height: 35px;
+  appearance: none;
+  background-color: rgb(72, 51, 72) !important;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 5px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+
+
+
+.button-3:hover {
+  background-color:  rgb(56, 41, 56) !important;
+}
+
