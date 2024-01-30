@@ -263,7 +263,7 @@
 @media only screen and (max-width: 600px){
     .bell{
         position:absolute;
-        left: 270px;
+        left: 265px;
     }
 }
 
@@ -294,7 +294,7 @@
        height: 25px;
        margin-top: 3px;
         position: absolute;
-        left: 310px;
+        left: 305px;
     }
 }
 
@@ -306,6 +306,12 @@
    
     
 }
+@media only screen and (max-width: 600px){
+    .sec1{
+        width: 290px;
+    height: auto;
+    }
+}
 
 .sec2{
     background-color: white;
@@ -313,6 +319,12 @@
     width: 320px;
     height: 600px;
    
+}
+@media only screen and (max-width: 600px){
+    .sec2{
+        width: 290px;
+    height: auto;
+    }
 }
 
 .sec3{
@@ -322,6 +334,12 @@
     height: 600px;
    
 }
+@media only screen and (max-width: 600px){
+    .sec3{
+        width: 290px;
+    height: auto;
+    }
+}
 
 .sec4{
     background-color: white;
@@ -329,17 +347,35 @@
     height: 350px;
     
 }
+@media only screen and (max-width: 600px){
+    .sec4{
+        width: 290px;
+    height: auto;
+    }
+}
 .sec5{
     background-color: white;
     width: 320px;
     height: 350px;
     
 }
+@media only screen and (max-width: 600px){
+    .sec5{
+        width: 290px;
+    height: auto;
+    }
+}
 .sec6{
     background-color: white;
     width: 320px;
     height: 350px;
     
+}
+@media only screen and (max-width: 600px){
+    .sec6{
+        width: 290px;
+    height: auto;
+    }
 }
 
 .sec7{
@@ -348,6 +384,13 @@
     height: 230px;
     margin-bottom: 20px;
     
+}
+
+@media only screen and (max-width: 600px){
+    .sec7{
+        width: 290px;
+    height: auto;
+    }
 }
 
 .sections{
@@ -369,7 +412,8 @@
 
     .sections{
         
-        left: 10px;
+           
+        left: 23px;
         position: absolute;
         grid-template-columns: auto;
        
@@ -387,7 +431,7 @@
     padding: 10px;
     font-size: 30px;
     /* text-align: center; */
-    box-shadow: 0px 0px 9px -5px;
+    box-shadow: 3px 3px 35px -20px;
     border-radius: 0.35rem;
 }
 
