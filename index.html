@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sage University</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="temp">
+        <div class="box">
+            <div class="logo">
+                <img src="./sagelogo.png" alt="">
+            </div>
+
+            <div class="radio">
+                <label for="identity">
+                    <input type="radio" value="Student/Parent" name="section" id="identity"> Student/Parent
+                </label>
+            </div>
+            <div class="idpass">
+                <div class="id">
+                    <input type="text" placeholder="Login name">
+
+                </div>
+
+                <div class="pass">
+                    <input type="password" placeholder="password">
+                </div>
+                <div class="toggle-switch">
+
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                    <span class="text">Login To Online Test Portal?</span>
+                </div>
+
+                <div class="links">
+                    <div class="forgetpass">
+                        <a href="">Forgot Password?</a>
+
+                    </div>
+
+                    <div class="newuser">
+                        <a href="">SignUp (New User)</a>
+                    </div>
+
+                </div>
+
+
+                <div class="lbutton">
+                    <div class="login">
+                     
+                      <button onclick="goToPage2()"  class="button-3" role="button">Login &#8811</button>
+                       
+                      <script>
+                        function goToPage2() {
+
+                            window.location.href = 'home.html';
+                        }
+                    </script>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+   
+</body>
+
+</html>
