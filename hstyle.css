@@ -263,7 +263,7 @@
 @media only screen and (max-width: 600px){
     .bell{
         position:absolute;
-        left: 280px;
+        left: 270px;
     }
 }
 
@@ -294,7 +294,7 @@
        height: 25px;
        margin-top: 3px;
         position: absolute;
-        left: 320px;
+        left: 310px;
     }
 }
 
