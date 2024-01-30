@@ -147,6 +147,7 @@
 
 @media only screen and (max-width: 600px){
     .uppernav{
+        width: 100%;
         left: 0px;
         position: absolute;
 
